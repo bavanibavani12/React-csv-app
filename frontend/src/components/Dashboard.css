@@ -1,0 +1,17 @@
+.charts-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust minmax as needed */
+    gap: 16px; /* Space between charts */
+    margin-top: 20px;
+}
+
+.chart {
+    background-color: #f9f9f9; /* Light background for charts */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside each chart */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    height: 200px; /* Fixed height for each chart */
+    /* Optional: Set a max width to ensure charts don't get too wide */
+    max-width: 300px; /* Adjust as necessary */
+}
